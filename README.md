@@ -52,17 +52,17 @@ A complete bill of materials (BOM) is available from Digi-Key: (https://www.digi
 Components with the Digi-Key codes are also listed below.
 
 
- | Manufacturer Part Number | Manufacturer | Digi-Key Part Number | Customer Reference | Reference Designator | Packaging | Part Status | Quantity | Unit Price | Extended Price | Description | 
- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | 
- | 383 | Adafruit Industries LLC | 1528-2586-ND | 40W ZIF Socket |  | Bulk | Active | 1 | 3.15000 | £3.15 | 40-PIN ZIF SOCKET | 
- | PRPC040SAAN-RC | Sullins Connector Solutions | S1011EC-40-ND | Pins for all Arduino and single in-line hdrs |  | Bag | Active | 2 | 0.52000 | £1.04 | CONN HEADER VERT 40POS 2.54MM | 
- | PRPC003DAAN-RC | Sullins Connector Solutions | S2011EC-03-ND | Power pin headers |  | Bag | Active | 2 | 0.15000 | £0.30 | CONN HEADER VERT 6POS 2.54MM | 
- | PRPC005DAAN-RC | Sullins Connector Solutions | S2011EC-05-ND | Ground pin header |  | Bag | Active | 1 | 0.23000 | £0.23 | CONN HEADER VERT 10POS 2.54MM | 
- | TSW-118-07-G-D | Samtec Inc. | SAM1028-18-ND | 36W Arduino Header |  | Bulk | Active | 1 | 2.41000 | £2.41 | CONN HEADER VERT 36POS 2.54MM | 
- | TSW-120-07-G-D | Samtec Inc. | SAM1028-20-ND | 40W ZIF/Arduino Headers |  | Bulk | Active | 2 | 2.68000 | £5.36 | CONN HEADER VERT 40POS 2.54MM | 
- | SPC02SYAN | Sullins Connector Solutions | S9001-ND | Link connectors for all digital pins |  | Bulk | Active | 40 | 0.03480 | £1.39 | CONN JUMPER SHORTING GOLD FLASH | 
- | FA28X8R1E104KNU00 | TDK Corporation | 445-181217-ND | Ceramic 100nF Decoupling |  | Bulk | Active | 2 | 0.31000 | £0.62 | CAP CER 0.1UF 25V X8RADIAL | 
- | EEA-GA1A220H | Panasonic Electronic Components | P15775CT-ND | Electrolytic Decoupling |  | Cut Tape (CT) | Active | 2 | 0.19000 | £0.38 | CAP ALUM 22UF 20% 10V RADIAL | 
+| Manufacturer Part Number | Manufacturer | Digi-Key Part Number | Customer Reference | Reference Designator | Packaging | Part Status | Quantity | Unit Price | Extended Price | Description | 
+| -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- |
+| 383 | Adafruit Industries LLC | 1528-2586-ND | 40W ZIF Socket |  | Bulk | Active | 1 | 3.15000 | £3.15 | 40-PIN ZIF SOCKET | 
+| PRPC040SAAN-RC | Sullins Connector Solutions | S1011EC-40-ND | Pins for all Arduino and single in-line hdrs |  | Bag | Active | 2 | 0.52000 | £1.04 | CONN HEADER VERT 40POS 2.54MM | 
+| PRPC003DAAN-RC | Sullins Connector Solutions | S2011EC-03-ND | Power pin headers |  | Bag | Active | 2 | 0.15000 | £0.30 | CONN HEADER VERT 6POS 2.54MM | 
+| PRPC005DAAN-RC | Sullins Connector Solutions | S2011EC-05-ND | Ground pin header |  | Bag | Active | 1 | 0.23000 | £0.23 | CONN HEADER VERT 10POS 2.54MM | 
+| TSW-118-07-G-D | Samtec Inc. | SAM1028-18-ND | 36W Arduino Header |  | Bulk | Active | 1 | 2.41000 | £2.41 | CONN HEADER VERT 36POS 2.54MM | 
+| TSW-120-07-G-D | Samtec Inc. | SAM1028-20-ND | 40W ZIF/Arduino Headers |  | Bulk | Active | 2 | 2.68000 | £5.36 | CONN HEADER VERT 40POS 2.54MM | 
+| SPC02SYAN | Sullins Connector Solutions | S9001-ND | Link connectors for all digital pins |  | Bulk | Active | 40 | 0.03480 | £1.39 | CONN JUMPER SHORTING GOLD FLASH | 
+| FA28X8R1E104KNU00 | TDK Corporation | 445-181217-ND | Ceramic 100nF Decoupling |  | Bulk | Active | 2 | 0.31000 | £0.62 | CAP CER 0.1UF 25V X8RADIAL | 
+| EEA-GA1A220H | Panasonic Electronic Components | P15775CT-ND | Electrolytic Decoupling |  | Cut Tape (CT) | Active | 2 | 0.19000 | £0.38 | CAP ALUM 22UF 20% 10V RADIAL | 
 
 NB Alternative ZIF sockets of better quality can be found cheaply on eBay.
 

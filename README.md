@@ -2,6 +2,8 @@
 
 This is a simple shield designed to fit an Arduino Mega2560  (and compatible devices) which has a single 40 pin Zero-Insertion Force (ZIF) socket.
 
+![Board Silk Screen](https://github.com/revaldinho/zifshield/blob/master/doc/zifshield_v1.0.png?raw=true)
+
 Link pins are provided to hook up each of the ZIF pins to an Arduino digital pin channel. Alternatively, breadboard patch wires can be used to connect selected ZIF pins instead to ground, +3.3V or +5V power rails.
 
 Potential applications for the board include
@@ -42,10 +44,32 @@ Each ZIF pin has a 2 pin header immediately adjacent. Closing the link with a ju
 Alternatively, using a breadboard patch lead any of the ZIF pins can instead be connected to one of the banks of supply pins instead allowing it to become a true ground, +3.3V or +5V power connection.
 
 
-
 Notes
 - generic PCB layout files are provided in the releases directory but using the source directly requires use of the Eagle (freeware version) PCB software and the [netlister.py - netlist to PCB script generation project](https://github.com/revaldinho/netlister).
 
+    `
+     ├── LICENSE
+     
+     ├── README.md
+     ├── common_pcb
+     │   ├── Makefile
+     │   ├── autorouter.ctl
+     │   ├── autorouter_74.ctl
+     │   ├── common.header
+     │   ├── default_smd.dru
+     │   └── metric_smd.ctl
+     ├── doc
+     │   ├── zifshield_v1.0.png
+     │   └── zifshield_v1.0_full.png
+     ├── pcb
+     │   ├── README
+     │   ├── zifshield.footer
+     │   ├── zifshield.net
+     │   ├── zifshield.scr
+     │   └── zifshield.v
+     └── releases`enter code here`
+         └── zifshield_v1.0.zip
+    `
 
 
 

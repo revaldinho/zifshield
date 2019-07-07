@@ -47,31 +47,6 @@ Alternatively, using a breadboard patch lead any of the ZIF pins can instead be 
 Notes
 - generic PCB layout files are provided in the releases directory but using the source directly requires use of the Eagle (freeware version) PCB software and the [netlister.py - netlist to PCB script generation project](https://github.com/revaldinho/netlister).
 
-    `
-     ├── LICENSE
-     
-     ├── README.md
-     ├── common_pcb
-     │   ├── Makefile
-     │   ├── autorouter.ctl
-     │   ├── autorouter_74.ctl
-     │   ├── common.header
-     │   ├── default_smd.dru
-     │   └── metric_smd.ctl
-     ├── doc
-     │   ├── zifshield_v1.0.png
-     │   └── zifshield_v1.0_full.png
-     ├── pcb
-     │   ├── README
-     │   ├── zifshield.footer
-     │   ├── zifshield.net
-     │   ├── zifshield.scr
-     │   └── zifshield.v
-     └── releases`enter code here`
-         └── zifshield_v1.0.zip
-    `
-
-
 
 
 

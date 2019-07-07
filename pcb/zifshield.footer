@@ -1,0 +1,134 @@
+# Maximum Eagle freeware board size is 4.0x3.2" (100x80mm) 
+
+# better to work in inches for 0.1 inch pad pitch
+Grid default;
+Set Wire_Bend 0;
+Layer Dimension;
+Wire 0  (0 0) (3.4 2.2) (0 0);
+Layer Top;
+CLASS 0 signal 0.010 0.010 ;
+CLASS 1 supply 0.030 0.015 ;
+
+# Caps
+ROTATE =R90 CAP22UF_5V ;  MOVE CAP22UF_5V     (0.15 1.60 ) ;
+ROTATE =R90 CAP22UF_3V3 ;  MOVE CAP22UF_3V3  (0.15 0.50 ) ;
+ROTATE =R90 CAP100N_1 ;  MOVE CAP100N_1      (0.45 1.40 ) ;
+ROTATE =R90 CAP100N_2 ;  MOVE CAP100N_2      (0.45 1.00 ) ;
+
+ROTATE =R0 skt_0;
+MOVE skt_0      (1.9 1.15)
+
+
+ROTATE =R0 l_01 ; MOVE l_01 ( 1.90   0.55 )
+ROTATE =R0 r_01 ; MOVE r_01 ( 1.90  1.75 )
+
+ROTATE =R0 ard_hdr_0 ; MOVE ard_hdr_0 ( 0.95 0.15 )
+ROTATE =R0 ard_hdr_1 ; MOVE ard_hdr_1 ( 1.85 0.15 )
+ROTATE =R0 ard_hdr_2 ; MOVE ard_hdr_2 ( 2.75 0.15 )
+ROTATE =R0 ard_hdr_3 ; MOVE ard_hdr_3 ( 0.69 2.05 )
+ROTATE =R0 ard_hdr_4 ; MOVE ard_hdr_4 ( 1.65 2.05 )
+ROTATE =R0 ard_hdr_5 ; MOVE ard_hdr_5 ( 2.55 2.05 )
+ROTATE =R90 ard_hdr_6 ; MOVE ard_hdr_6 ( 3.25 1.20 )
+
+ROTATE =R180  power_5V   ; MOVE power_5V ( 0.65 1.75 )
+ROTATE =R90   power_GND ; MOVE power_GND ( 0.2 1.2 )
+ROTATE =R180  power_3V3  ; MOVE power_3V3 ( 0.65 0.55 )
+ROTATE =R90   reset_0  ; MOVE reset_0 ( 0.15 0.20 )
+
+
+layer tDocu;
+
+CHANGE FONT PROPORTIONAL ; 
+CHANGE SIZE 0.05
+TEXT 'ZIFSHIELD v1.0, (C) 2019 Revaldinho, github.com/revaldinho/zifshield' R0 (0.45 2.125) ;
+
+CHANGE FONT FIXED ; 
+CHANGE SIZE 0.03 ;
+CHANGE WIDTH 0.01 ;
+
+TEXT  'DP54' R90 (0.95  0.30);
+TEXT  'DP55' R90 (1.05  0.30);
+TEXT  'DP56' R90 (1.15  0.30);
+TEXT  'DP57' R90 (1.25  0.30);
+TEXT  'DP58' R90 (1.35  0.30);
+TEXT  'DP59' R90 (1.45  0.30);
+TEXT  'DP60' R90 (1.55  0.30);
+TEXT  'DP61' R90 (1.65  0.30);
+TEXT  'DP62' R90 (1.76  0.30);
+TEXT  'DP63' R90 (1.85  0.30);
+TEXT  'DP64' R90 (1.95  0.30);
+TEXT  'DP65' R90 (2.05  0.30);
+TEXT  'DP66' R90 (2.15  0.30);
+TEXT  'DP67' R90 (2.25  0.30);
+TEXT  'DP68' R90 (2.35  0.30);
+TEXT  'DP69' R90 (2.45  0.30);
+TEXT  'DP52' R90 (2.55  0.30);
+TEXT  'DP50' R90 (2.65  0.30);
+TEXT  'DP48' R90 (2.75  0.30);
+TEXT  'DP20' R90 (2.85  0.30);
+
+TEXT 'DP13' R90 (0.95  1.875);
+TEXT 'DP12' R90 (1.05  1.875);
+TEXT 'DP11' R90 (1.15  1.875);
+TEXT 'DP10' R90 (1.25  1.875);
+TEXT 'DP9 ' R90 (1.35  1.875);
+TEXT 'DP8 ' R90 (1.45  1.875);
+TEXT 'DP7 ' R90 (1.55  1.875);
+TEXT 'DP6 ' R90 (1.65  1.875);
+TEXT 'DP5 ' R90 (1.76  1.875);
+TEXT 'DP4 ' R90 (1.85  1.875);
+TEXT 'DP3'  R90 (1.95  1.875);
+TEXT 'DP2'  R90 (2.05  1.875);
+TEXT 'DP1'  R90 (2.15  1.875);
+TEXT 'DP0'  R90 (2.25  1.875);
+TEXT 'DP14' R90 (2.35  1.875);
+TEXT 'DP15' R90 (2.45  1.875);
+TEXT 'DP16' R90 (2.55  1.875);
+TEXT 'DP17' R90 (2.65  1.875);
+TEXT 'DP18' R90 (2.75  1.875);
+TEXT 'DP19' R90 (2.85  1.875);
+
+CHANGE SIZE 0.05;
+TEXT '+5V' R0 (0.6 1.875);
+TEXT '3V3' R0 (0.6 0.375);
+TEXT 'GROUND' R90 (0.05 1.10);
+
+CHANGE SIZE 0.04;
+TEXT 'CAP22UF_5V'  R90   (0.075 1.65 ) ;
+TEXT 'CAP22UF_3V3' R90   (0.075 0.40 ) ;
+TEXT 'CAP100N_1'   R90   (0.375 1.275 ) ;
+TEXT 'CAP100N_2'   R90   (0.375 0.825 ) ;
+TEXT 'RESET' R0 (0.25 0.10);
+TEXT 'GND' R0 (0.25 0.20);
+
+
+## WIRE  (0.15 0.95) (0.15 1.5) (0.35 1.5 ) (0.35 0.95) ( 0.15 0.95 ) ;
+## TEXT 'GND  TDI  TCK  NC' R90 (0.2 0.99) ;
+## TEXT 'GND  TMS  TDO  5V' R90 (0.3 0.99) ;
+## TEXT '+5V VDDIO +3V3' R0  (0.28 2.5) ;
+## TEXT 'GND TxD RxD' R0  (0.76 2.5) ;
+## TEXT 'WARNING: DO NOT CLOSE J2 WHEN USING 'R0 (0.05 3.10) ;
+## TEXT '         EXTERNAL COPROCESSOR POWER' R0 (0.05 3.05) ;
+## 
+## # Preroute VDD and VSS rings
+## layer top;
+## wire  0.04;
+## wire  'VDD' (0.06 0.06) ( 3.84 0.06) (3.84 3.14) (0.06 3.14) (0.06 0.06) ;
+## layer bottom;
+## wire  0.04;
+## wire  'VSS' (0.06 0.06) ( 3.84 0.06) (3.84 3.14) (0.06 3.14) (0.06 0.06) ;
+## 
+## # Autorouter
+AUTO load /tmp/autorouter.ctl;
+AUTO ;
+## 
+# Define power fills top and bottom over whole board area
+layer Top ; 
+polygon VDD_5V 0.08 (0 0) (0 2.15) (3.35 2.15) (3.35 0) (0 0) ;
+layer Bottom ; 
+polygon GND 0.08 (0 0) (0 2.15) (3.35 2.15) (3.35 0) (0 0) ;
+Ratsnest ;  ## Calculate and display polygons
+
+
+Window Fit;
+

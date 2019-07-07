@@ -14,7 +14,7 @@ Potential applications for the board include
 
 Each ZIF pin has a 2 pin header immediately adjacent. Closing the link with a jumper will connect the ZIF pin to an Arduino digital pin as shown in the table below. 
 
-  ### ZIF/Arduino Pin Links
+### ZIF/Arduino Pin Links
  
 | Arduino Pin | ZIF Pin | ZIF Pin | Arduino Pin |
 | -- | -- | -- | -- |
@@ -41,12 +41,10 @@ Each ZIF pin has a 2 pin header immediately adjacent. Closing the link with a ju
 
 Alternatively, using a breadboard patch lead any of the ZIF pins can instead be connected to one of the banks of supply pins instead allowing it to become a true ground, +3.3V or +5V power connection.
 
+
+
 Notes
 - generic PCB layout files are provided in the releases directory but using the source directly requires use of the Eagle (freeware version) PCB software and the [netlister.py - netlist to PCB script generation project](https://github.com/revaldinho/netlister).
-
-
-
-
 
 
 
